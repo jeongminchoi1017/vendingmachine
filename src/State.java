@@ -13,5 +13,11 @@ public class State {
         throw new IllegalStateException();
     }
 
+    public Item dispense(){
+        throw new IllegalStateException();
+    }
 
+    public List getChange(){
+        throw new IllegalStateException();
+    }
 }
